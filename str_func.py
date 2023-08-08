@@ -1,5 +1,5 @@
 def capital_letter(s):
-    """The function for return string with all capital letters."""
+    """The function for return string with all capital letters. """
     words = s.split()
     if len(words) > 0:
         words[0] = words[0][0].upper() + words[0][1:]
